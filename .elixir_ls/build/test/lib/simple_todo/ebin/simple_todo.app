@@ -1,0 +1,12 @@
+{application,simple_todo,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"simple_todo"},
+              {modules,['Elixir.Calculator','Elixir.Collectable.TodoList',
+                        'Elixir.DatabaseServer','Elixir.KeyValueStore',
+                        'Elixir.KeyValueStore2','Elixir.MultiDict',
+                        'Elixir.ServerProcess','Elixir.String.Chars.TodoList',
+                        'Elixir.TodoList','Elixir.TodoList.CsvImporter',
+                        'Elixir.TodoList2','Elixir.TodoServer',
+                        'Elixir.TodoServer2']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
